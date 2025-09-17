@@ -12,11 +12,6 @@ This website consists of 4 pages including the profile page, blog page, projects
 - **Projects** – [Skill I have aqquired and work I have done.]  
 - **Resources** - [Links to resources I have used.]
  
-
-# Live Link
-
-View live link here: [Live Link](https://mdukes0.github.io/mdukes0/)
-
 # Code Snippet
 
 This code is from codeacademy, it creates the hover bar for blog, porojects, and resources.
