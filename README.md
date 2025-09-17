@@ -15,7 +15,7 @@ This website consists of 4 pages including the profile page, blog page, projects
 
 # Live Link
 
-View live link here: [Live Demo](https://mdukes0.github.io/mdukes0/)
+View live link here: [Live Link](https://mdukes0.github.io/mdukes0/)
 
 # Code Snippet
 
