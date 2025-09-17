@@ -116,7 +116,7 @@ Click here to view my live link: http://mdukes0.github.io/mdukes0/
 
 # Wireframe
 
-![Profile Wireframe](./images/profile-wireframe.png)
+![Profile Wireframe](./docs/images/profile-wireframe.png)
 
 
 # Credit & Disclosure
