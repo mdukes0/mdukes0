@@ -107,7 +107,7 @@ Imported from google fonts to stylize the website.
 ```
 # Live Link
 
-Click here to view my live link: http://mdukes0.github.io/mdukes0/
+Click here to view my live link: https://mdukes0.github.io/mdukes0/
 
 # Wireframe
 
