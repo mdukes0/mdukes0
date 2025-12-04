@@ -1,258 +1,246 @@
-/*Libertinus Serif Display*/
+/* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Libertinus+Serif+Display&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 * {
-	font-family: 'Libertinus Serif Display', serif;
+  font-family: 'Libertinus Serif Display', serif;
 }
 
-/* Profile page */
+/* Profile Page */
 
 body {
-	background-color: rgb(30, 87, 67);
-	margin: 0;
+  background-color: rgb(30, 87, 67);
+  margin: 0;
 }
 
 .navbar {
-	width: 100vw;
+  width: 100vw;
 }
 
 .welcome-card {
-	width: 350px;
-	padding: 25px 20px;
-	margin: 20px auto;
-	border: 10px solid rgb(227, 227, 227);
-	background-color: rgb(5, 56, 46);
-	text-align: center;
-	color: white;
+  width: 350px;
+  padding: 25px 20px;
+  margin: 20px auto;
+  border: 10px solid rgb(227, 227, 227);
+  background-color: rgb(5, 56, 46);
+  text-align: center;
+  color: white;
 }
 
 .description {
-	max-width: 700px;
-	width: 100%;
-	padding: 25px 30px;
-	margin: 20px auto;
-	border: 10px solid rgb(227, 227, 227);
-	background-color: rgb(5, 56, 46);
-	text-align: center;
-	color: white;
+  max-width: 700px;
+  width: 100%;
+  padding: 25px 30px;
+  margin: 20px auto;
+  border: 10px solid rgb(227, 227, 227);
+  background-color: rgb(5, 56, 46);
+  text-align: center;
+  color: white;
 }
 
 .js-test {
-	text-align: center;
-	color: white;
-	margin: 10px auto;
+  text-align: center;
+  color: white;
+  margin: 10px auto;
 }
 
 #test {
-	text-align: center;
-	list-style-position: inside;
+  text-align: center;
+  list-style-position: inside;
 }
 
-/* blog.html */
+.main-sections {
+  max-width: 1000px;
+  margin: 20px auto 40px;
+}
+
+.section-heading {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+
+.project-list,
+.achievement-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+  margin: 30px auto;
+  max-width: 1000px;
+}
+
+.project-search-wrapper {
+  max-width: 400px;
+  margin: 0 auto 20px;
+}
+
+/* Blog Page */
+
 .blog-page {
-	background-color: rgb(12, 38, 51);
+  background-color: rgb(12, 38, 51);
 }
 
 .row {
-	display: flex;
-	/* Allows row to fill up space */
-	gap: 30px;
-	/* Gap between column and row  */
-	margin: 20px auto;
-	max-width: 700px;
+  display: flex;
+  gap: 30px;
+  margin: 20px auto;
+  max-width: 700px;
 }
 
 .blog-page .column-one,
 .blog-page .column-two,
 .blog-page .column-three {
-	flex: 1;
-	border: 5px solid rgb(20, 52, 73);;
-	background: rgb(22, 75, 96);
+  flex: 1;
+  border: 5px solid rgb(20, 52, 73);
+  background: rgb(22, 75, 96);
 }
 
 .blog-page .column-two img {
-	max-width: 100%;
-	margin: 10px auto;
+  max-width: 100%;
+  margin: 10px auto;
 }
 
 .column-one {
-	text-align: center;
+  text-align: center;
 }
 
 .blog-page p {
-	color: white;
+  color: white;
 }
 
 .blog-card {
-	width: 350px;
-	padding: 25px 20px;
-	margin: 20px auto;
-	border: 10px solid rgb(20, 52, 73);
-	background-color: rgb(22, 75, 96);
-	text-align: center;
-	color: white;
+  width: 350px;
+  padding: 25px 20px;
+  margin: 20px auto;
+  border: 10px solid rgb(20, 52, 73);
+  background-color: rgb(22, 75, 96);
+  text-align: center;
+  color: white;
 }
 
 .hobby-list {
-	color: white;
+  color: white;
 }
 
 .links {
-	border: 1px solid rgb(63, 137, 186);
-	padding: 40px 0px;
-	position: relative;
-	text-align: center;
-	width: 100%;
+  border: 1px solid rgb(63, 137, 186);
+  padding: 40px 0px;
+  position: relative;
+  text-align: center;
+  width: 100%;
 }
 
 .links a {
-	background: rgb(246, 255, 204);
-	border: 1px solid rgb(0, 0, 0);
-	border-radius: 3px;
-	color: rgb(0, 0, 0);
-	display: inline-block;
-	margin: 10px;
-	padding: 14px;
-	text-decoration: none;
+  background: rgb(246, 255, 204);
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 3px;
+  color: rgb(0, 0, 0);
+  display: inline-block;
+  margin: 10px;
+  padding: 14px;
+  text-decoration: none;
 }
 
 .links a:hover {
-	background: rgb(22, 75, 96);
-	border: 1px solid rgb(46, 109, 92);
-	color: rgb(255, 255, 255);
+  background: rgb(22, 75, 96);
+  border: 1px solid rgb(46, 109, 92);
+  color: rgb(255, 255, 255);
 }
 
-/* Projects page */
-
-.projects-card {
-	width: 350px;
-	padding: 25px 20px;
-	margin: 20px auto;
-	border: 10px dotted rgb(127, 117, 93);
-	background-color: antiquewhite;
-	text-align: center;
-	color: rgb(47, 37, 21);
-}
-
-.container {
-	display: grid;
-	align-self: auto;
-	gap: 20px;
-	padding: 20px;
-	border: 10px dotted rgb(127, 117, 93);
-	background-color:antiquewhite;
-	text-align: center;
-}
-
-.projects-page .row {
-	display: flex;
-	/* Allows row to fill up space */
-	gap: 30px;
-	/* Gap between column and row  */
-	margin: 20px auto;
-	max-width: 700px;
-}
-
-.projects-page .column-left,
-.projects-page .column-right {
-	border: 5px solid rgb(127, 117, 93);
-	background: antiquewhite;
-}
-
-.projects-page .column-left {
-	margin: 5px left;
-}
-
-.projects-page .column-right {
-	margin: 5px right;
-}
-
-.grid-one {
-	justify-items: left;
-	border-style: double;
-}
-
-.grid-two {
-	justify-items: right;
-	border-style: double;
-}
-
-.grid-one img {
-	max-width: 100%;
-	margin: 10px auto;
-	height: 300px;
-}
-
-.grid-two img {
-	max-width: 100%;
-	margin: 10px auto;
-	height: 300px;
-}
-
-/* Resource page */
+/* Resources Page */
 
 .rsrcs-card {
-	width: 350px;
-	padding: 25px 20px;
-	margin: 20px auto;
-	border: 10px solid rgb(163, 255, 117);
-	background-color: rgb(124, 211, 124);
-	text-align: center;
-	color: rgb(32, 57, 23);;
+  width: 350px;
+  padding: 25px 20px;
+  margin: 20px auto;
+  border: 10px solid rgb(163, 255, 117);
+  background-color: rgb(124, 211, 124);
+  text-align: center;
+  color: rgb(32, 57, 23);
 }
 
 .rsrcs-page {
-	background-color: rgb(74, 171, 106);
+  background-color: rgb(74, 171, 106);
 }
 
 .rsrcs-page .rsrc-links p {
-	padding: 20px;
-	height: 40px;
-	max-width: 800px;
-	margin: 20px auto;
-	border: 10px solid rgb(163, 255, 117);
-	background: rgb(124, 211, 124);
-	text-align: left;
-	color: rgb(32, 57, 23);
+  padding: 20px;
+  height: 40px;
+  max-width: 800px;
+  margin: 20px auto;
+  border: 10px solid rgb(163, 255, 117);
+  background: rgb(124, 211, 124);
+  text-align: left;
+  color: rgb(32, 57, 23);
 }
 
 .rsrcs-page .links {
-	border: 1px solid rgb(255, 227, 87);
-	padding: 40px 0px;
-	position: relative;
-	text-align: center;
-	width: 100%;
+  border: 1px solid rgb(255, 227, 87);
+  padding: 40px 0px;
+  position: relative;
+  text-align: center;
+  width: 100%;
 }
 
 .rsrcs-page .links a {
-	background: rgb(246, 255, 204);
-	border: 1px solid rgb(0, 0, 0);
-	border-radius: 3px;
-	color: rgb(0, 0, 0);
-	display: inline-block;
-	margin: 10px;
-	padding: 14px;
-	text-decoration: none;
+  background: rgb(246, 255, 204);
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 3px;
+  color: rgb(0, 0, 0);
+  display: inline-block;
+  margin: 10px;
+  padding: 14px;
+  text-decoration: none;
 }
 
 .rsrcs-page .links a:hover {
-	background: rgb(46, 89, 35);
-	border: 1px solid rgb(163, 255, 117);
-	color: rgb(255, 255, 255);
+  background: rgb(46, 89, 35);
+  border: 1px solid rgb(163, 255, 117);
+  color: rgb(255, 255, 255);
 }
 
-/* footer */
-.footer {
-	border: 5px dashed white;
-	margin: 10px auto;
-	text-align: center;
+/* Reflection page */
 
+.reflection-page {
+  background-color: #f4f1ea;
+  margin: 0;
+  padding: 0;
+}
+
+.reflection-page .container {
+  background-color: #fdfcf7; 
+  padding: 30px;
+  border: 1px solid #d6ceb8; 
+  border-radius: 6px;
+}
+
+.reflection-page .section-heading {
+  color: #382110;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Markdown text  */
+.reflection-page zero-md {
+  display: block;
+  margin-top: 20px;
+}
+
+.reflection-page {
+  color: #4f4537;
+}
+
+/* Footer */
+
+.footer {
+  border: 5px dashed white;
+  margin: 10px auto;
+  text-align: center;
 }
 
 .footer a {
-	color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
 }
 
 .footer a:hover {
-	color: rgb(0, 128, 75);
+  color: rgb(0, 128, 75);
 }

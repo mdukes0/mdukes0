@@ -8,15 +8,20 @@
   <!-- Normalize CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css">
 
+  <!-- Bootstrap 5 CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <!-- Bootstrap Icons (for GitHub icon on buttons) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
   <link rel="stylesheet" href="styles/styles.css">
 
   <title>MD Profile</title>
+
 </head>
 
-<body> <!--Expand to full screen-->
+<body>
 
   <!-- Navbar content -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -29,13 +34,13 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="pages/blog.html">Blog</a> <!--Reference page-->
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="pages/projects.html">Projects</a>
+            <a class="nav-link" href="pages/blog.html">Blog</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="pages/resources.html">Resources</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pages/reflection.html">Reflection</a>
           </li>
         </ul>
       </div>
@@ -50,9 +55,11 @@
     integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
     crossorigin="anonymous"></script>
 
-  <!-- A bootstrap profile card  -->
-
+  <!-- Your existing JS for the mouseover demo -->
   <script src="scripts/script.js"></script>
+
+  <!-- NEW: App JS that will fetch JSON and render cards -->
+  <script src="scripts/app.js" defer></script>
 
   <!-- Welcome Card  -->
   <div class="welcome-card">
@@ -60,7 +67,6 @@
   </div>
 
   <!-- Description  -->
-
   <div class="description">
     <p>My name is Maria Dukes and this is my website which will help you learn a little more about who I am.
       Above you will see several links, such as my blog which will give you some insight to my personal interests.
@@ -69,8 +75,23 @@
     </p>
   </div>
 
-  <!-- Javascript from developer mozilla -->
+  <section class="projects-section">
+    <h2 class="section-heading">Featured Projects</h2>
 
+    <div class="project-search-wrapper">
+      <input type="search" class="form-control project-search-input" placeholder="Search projects by name or keyword">
+    </div>
+
+    <div class="project-list"></div>
+  </section>
+
+
+  <section class="achievements-section">
+    <h2 class="section-heading">Achievements</h2>
+    <div class="achievement-list"></div>
+  </section>
+
+  <!-- Javascript from developer mozilla -->
   <div class="js-test">
     <p>Hey! Look what I can do with javascript:</p>
     <ul id="test">

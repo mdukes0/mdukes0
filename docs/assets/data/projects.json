@@ -1,0 +1,62 @@
+{
+  "projects": [
+    {
+      "id": "project-alpha",
+      "title": "Project Alpha: Developer Profile (Old Version)",
+      "description": "My first web dev project that presents my initial knowlegde of HTML, CSS, JS, and Bootstrap. Explained a bit of who I am, my major, and goals.",
+      "codeUrl": "https://github.com/mdukes0/Website-Profile.git",
+      "appUrl": "https://mdukes0.github.io/Website-Profile/",
+      "image": "projectAlpha.png",
+      "tags": ["HTML", "CSS", "Bootstrap"]
+    },
+    {
+      "id": "project-bravo",
+      "title": "Project Bravo: Berry Drag-and-Drop Game",
+      "description": "A browser game that employs JavaScript, DOM manipulation, and gameplay logic to create a game with goal of dropping berries into their matching baskets.",
+      "codeUrl": "https://github.com/mdukes0/project-bravo",
+      "appUrl": "https://mdukes0.github.io/project-bravo/pages/devProfile.html",
+      "image": "berryDropGame.png",
+      "tags": ["JavaScript", "Game", "DOM"]
+    },
+    {
+      "id": "project-charlie",
+      "title": "Project Charlie: API & JSON Dashboard",
+      "description": "This was a group assignment that had us practice how to use Fetch API, JSON, and sorting. We learned how to co-collaberate on github",
+      "codeUrl": "https://github.com/ChickenAlfredo1121/doom-and-dispair-project-charlie",
+      "appUrl": "https://chickenalfredo1121.github.io/doom-and-dispair-project-charlie/",
+      "image": "projectCharlieWebsite.png",
+      "tags": ["JavaScript", "API", "Fetch", "Team Project"]
+    },
+    {
+      "id": "project-delta",
+      "title": "Project Delta: Goodreads UI Fix",
+      "description": "We were assigned to select an app of our choosing and fix a UI/UX issue. I chose Goodreads because any reader will tell you its design is inexcusibly lazy, an ancient my-space page, deteremined to make the app unbearable.",
+      "codeUrl": "https://github.com/mdukes0/project-delta",
+      "appUrl": "https://mdukes0.github.io/project-delta/",
+      "image": "projectDeltaWebsite.png",
+      "tags": ["UX", "Bootstrap", "UI Design"]
+    }
+  ],
+
+  "achievements": [
+    {
+      "id": "html-css-practice",
+      "title": "HTML & CSS Coursework",
+      "description": "Completed all 14 week coursework for codecademy.",
+      "images": ["codecademyAchievmentsOne.png",
+                "codecademyAchievmentsTwo.png",
+                "codecademyAchievmentsThree.png",
+                "codecademyAchievmentsFour.png",
+                "codecademyAchievmentsFive.png",
+                "codecademyAchievmentsSix.png"
+              ],
+      "type": "coursework"
+    },
+    {
+      "id": "cis-376-course-projects",
+      "title": "CIS 376: Web Development Portfolio",
+      "description": "Completed all four course projects: Alpha, Bravo, Charlie, and Delta.",
+      "type": "course"
+    }
+  ]
+}
