@@ -1,4 +1,4 @@
-# Overview
+# Overview (OLD)
 This project static-paged  website, with navbar at least linking to 4 other pages, which will detail my projects, resources, etc. Users will learn more about who I am, my interests, and the work I have done. IN addition, links will be provided for the Nu validator, WAVE, a live link, and lastly my repo.
 
 As an IT student I want to be able to expand my skills in development, coding, and cybersecurity so that I am well versed and prepared for my future career.
