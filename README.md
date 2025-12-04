@@ -42,7 +42,7 @@ This project is a refactored version of my developer profile website. The websit
 
 ## Wireframe
 
-![Wireframe](/assets/images/wireframeEcho.jpg)
+![Wireframe](./assets/images/wireframeEcho.jpg)
 
 ## Sources
 
