@@ -90,11 +90,11 @@ Throughout the semester I...
 
 ## Wireframe
 
-![Wireframe](../images/wireframeEcho.jpg)
+![Wireframe](./images/wireframeEcho.jpg)
 
 ## Diagram
 
-![Diagram](../images/diagram.jpg)
+![Diagram](./images/diagram.jpg)
 
 ## Definitions
 
@@ -120,6 +120,7 @@ Even small change, like organizing the layout of folders and empty pages will he
 
 
 I have learned about the basic principles for front-end decelopment, and the some of the tools used for web development.
+
 
 
 
