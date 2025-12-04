@@ -90,11 +90,11 @@ Throughout the semester I...
 
 ## Wireframe
 
-![Wireframe](/assets/images/wireframeEcho.jpg)
+![Wireframe](docs/assets/images/wireframeEcho.jpg)
 
 ## Diagram
 
-![Diagram](/assets/images/diagram.jpg)
+![Diagram](docs/assets/images/diagram.jpg)
 
 ## Definitions
 
@@ -117,5 +117,6 @@ Throughout the semester I...
 If I could give advice to myself at the beginning of the semster it would be to focus on the steps rather than be overwhelmed by the larger picture.
 
 Even small change, like organizing the layout of folders and empty pages will help me visualize how to add all the details. In addition, I've learned how to isolate and divide infromation on individual pages for better clarity, error review, and structure. 
+
 
 I have learned about the basic principles for front-end decelopment, and the some of the tools used for web development.
