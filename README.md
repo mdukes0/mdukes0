@@ -83,16 +83,13 @@ input.addEventListener("input", () => {
 ```
 
 ## Links
--[Live](https://mdukes0.github.io/mdukes0/)
--[Repo](https://github.com/mdukes0/mdukes0.git)
+- [Live](https://mdukes0.github.io/mdukes0/)
+- [Repo](https://github.com/mdukes0/mdukes0.git)
 - [Wave](https://wave.webaim.org/report#/https://mdukes0.github.io/mdukes0/index.html)
 - [Nu Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmdukes0.github.io/mdukes0/index.html)
--[Wiki](https://github.com/mdukes0/mdukes0/wiki)
+- [Wiki](https://github.com/mdukes0/mdukes0/wiki)
 
 
-# Wireframe
-
-![Profile Wireframe](./docs/images/profile-wireframe.png)
 
 
 
