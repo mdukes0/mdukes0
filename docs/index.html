@@ -78,9 +78,11 @@
   <section class="projects-section">
     <h2 class="section-heading">Featured Projects</h2>
 
-    <div class="project-search-wrapper">
-      <input type="search" class="form-control project-search-input" placeholder="Search projects by name or keyword">
-    </div>
+    <form class="project-search-wrapper" onsubmit="return false;">
+      <label for="projectSearch" class="visually-hidden">Search Projects</label>
+      <input id="projectSearch" type="search" class="form-control project-search-input"
+        placeholder="Search projects...">
+    </form>
 
     <div class="project-list"></div>
   </section>

@@ -1,124 +1,98 @@
 # Overview
-This project static-paged  website, with navbar at least linking to 4 other pages, which will detail my projects, resources, etc. Users will learn more about who I am, my interests, and the work I have done. IN addition, links will be provided for the Nu validator, WAVE, a live link, and lastly my repo.
 
-As an IT student I want to be able to expand my skills in development, coding, and cybersecurity so that I am well versed and prepared for my future career.
+This project is a refactored version of my developer profile website. The website retains previous infromation such as my blog and resources used, while also listing the projects and the achievements I aquired throughout CIS 376.
 
-## Page Map
+## Features
 
-This website consists of 4 pages including the profile page, blog page, projects page, and resources page:
+- Built with Boostrap 5 and cards
+- Projects and achievements loaded through JSON
+- Search bar and filters using JavaScript
+- Bootstrap Cards and GitHub Icon buttons
+- Reflection rendered through zero-md
+- Footer navigation
 
-- **Profile Page** – [Introductory page that welcomes the user and has a javascript example. Nu link, WAVE, Live link, Repo link footer.]  
-- **Blog** – [Some insights about me, including interests and other miscellaneous things.]  
-- **Projects** – [Skill I have aqquired and work I have done.]  
-- **Resources** - [Links to resources I have used.]
- 
-# Code Snippet
+## Tech Stack
 
-This code is from codeacademy, it creates the hover bar for blog, porojects, and resources.
+- HTML5, CSS3, JavaScript (ES6)
+- Bootstrap 5
+- Bootstrap Icon (GitHub)
+- Google Fonts
+- Fetch API for loading JSON
+- GitHub (For deployment)
+- GitHub Issues
+- WAVE + Nu Validator
+- zero-md
+- VS Code and DevTools
 
-<!-- Codeacademy -->
+## App Architecture
 
-```html
-  <div class="links">
-    <a href="../index.html">Profile Page</a>
-    <a href="../pages/blog.html">Blog</a>
-    <a href="../pages/projects.html">Projects</a>
+1. project.json
+  - project and achievement data
+2. app.js
+  - loads JSON with fetch()
+  - Renders Bootstrap cards
+  - Search filtering
+  - multi-image in achievements
+3. index.html
+  - structure
+4. styles.css
+  - styling for all pages (but reflection.html)
+5. reflection.html & reflection.md
+  - knowledge reflection
+
+## Wireframe
+
+![Wireframe](/assets/images/wireframeEcho.jpg)
+
+## Sources
+
+- google font import
+- Bootstrap (framework)
+- zero-md (Markdown rendering)
+- Junior (shared Knowledge.html which helped markdown file not loading)
+- ChatGpt 5.1 (Debugging, Idea generation, JavaScript Generation, Explanation for Wiki, diagram, and how to render Markdown file)
+
+## Code Snippets
+
+Bootstrap Card Render
+
+```js
+card.innerHTML = `
+  ${proj.image ? `<img src="assets/images/${proj.image}" class="card-img-top">` : ""}
+  <div class="card-body">
+    <h5 class="card-title">${proj.title}</h5>
+    <p class="card-text">${proj.description}</p>
+    <a href="${proj.codeUrl}" class="btn btn-outline-secondary btn-sm" target="_blank">
+      <i class="bi bi-github"></i> Source Code
+    </a>
   </div>
+`;
 ```
 
-This is the CSS code for the class links.
+Search Filtering
 
-  <!-- CSS for codeacademy -->
-
-```html
-.links {
-	border: 1px solid rgb(63, 137, 186);
-	padding: 40px 0px;
-	position: relative;
-	text-align: center;
-	width: 100%;
-}
-
-.links a {
-	background: rgb(246, 255, 204);
-	border: 1px solid rgb(0, 0, 0);
-	border-radius: 3px;
-	color: rgb(0, 0, 0);
-	display: inline-block;
-	margin: 10px;
-	padding: 14px;
-	text-decoration: none;
-}
-
-.links a:hover {
-	background: rgb(22, 75, 96);
-	border: 1px solid rgb(46, 109, 92);
-	color: rgb(255, 255, 255);
-}
-```
-
-The Following javascript is from developer mozilla, who provided the script for the mouseover feature on the profile page. 
-
-```Javascript
-
-  const test = document.getElementById("test");
-
-  // This handler will be executed only once when the cursor
-  // moves over the unordered list
-  test.addEventListener(
-    "mouseenter",
-    (event) => {
-      // highlight the mouseenter target
-      event.target.style.color = "purple";
-
-      // reset the color after a short delay
-      setTimeout(() => {
-        event.target.style.color = "";
-      }, 500);
-    },
-    false,
+```js
+input.addEventListener("input", () => {
+  const term = input.value.toLowerCase();
+  const filtered = allProjects.filter(p =>
+    p.title.toLowerCase().includes(term) ||
+    p.description.toLowerCase().includes(term)
   );
-
-  // This handler will be executed every time the cursor
-  // is moved over a different list item
-  test.addEventListener(
-    "mouseover",
-    (event) => {
-      // highlight the mouseover target
-      event.target.style.color = "orange";
-
-      // reset the color after a short delay
-      setTimeout(() => {
-        event.target.style.color = "";
-      }, 500);
-    },
-    false,
-  );
-
+  renderProjects(filtered);
+});
 ```
 
-Imported from google fonts to stylize the website.
+## Links
+-[Live](https://mdukes0.github.io/mdukes0/)
+-[Repo](https://github.com/mdukes0/mdukes0.git)
+- [Wave](https://wave.webaim.org/report#/https://mdukes0.github.io/mdukes0/index.html)
+- [Nu Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmdukes0.github.io/mdukes0/index.html)
+-[Wiki](https://github.com/mdukes0/mdukes0/wiki)
 
-```css
-
-@import url('https://fonts.googleapis.com/css2?family=Libertinus+Serif+Display&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-
-
-```
-# Live Link
-
-Click here to view my live link: https://mdukes0.github.io/mdukes0/
 
 # Wireframe
 
 ![Profile Wireframe](./docs/images/profile-wireframe.png)
 
-
-# Credit & Disclosure
-
-- Junior: Worked together with Junior
-- Codeacademy tutorials
-- Developer Mozilla
-- ChatGPT-5 for error review
 
 

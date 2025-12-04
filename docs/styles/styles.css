@@ -198,37 +198,6 @@ body {
   color: rgb(255, 255, 255);
 }
 
-/* Reflection page */
-
-.reflection-page {
-  background-color: #f4f1ea;
-  margin: 0;
-  padding: 0;
-}
-
-.reflection-page .container {
-  background-color: #fdfcf7; 
-  padding: 30px;
-  border: 1px solid #d6ceb8; 
-  border-radius: 6px;
-}
-
-.reflection-page .section-heading {
-  color: #382110;
-  font-weight: bold;
-  margin-bottom: 20px;
-}
-
-/* Markdown text  */
-.reflection-page zero-md {
-  display: block;
-  margin-top: 20px;
-}
-
-.reflection-page {
-  color: #4f4537;
-}
-
 /* Footer */
 
 .footer {
